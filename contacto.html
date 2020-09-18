@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/all.css" rel="stylesheet">
+    <link href="SASS/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <main class="container-fluid width-media">
+        <h1>Contacto coqueta</h1>
+        <header class="menu-principal row">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-beige col-sm-12 col-mg-12">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                    data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <hr class="d-md-none bg-pink">
+                    <ul class="navbar-nav ml-auto mt-2 mt-md-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline d-flex justify-content-end">
+                        <input class="form-control " type="text" placeholder="Search">
+                        <button class="btn btn-pink my-2 my-sm-0" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </nav>
+        </header>
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <div class="caja m-4 p-3 w-md-50">
+                    <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
+                        <div class="form-group">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" class="form-control caja" id="nombre" name="nombre" placeholder="Nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="mail">Correo electronico:</label>
+                            <input type="email" class="form-control caja" id="mail" name="mail" placeholder="e-mail">
+                        </div>
+                        <div class="form-group">
+                            <label for="text-area">Mensaje:</label>
+                            <textarea class="form-control caja" id="text-area" name="texto"
+                                placeholder="Su mensaje..."> </textarea>
+                        </div>
+                        <div class="form-group d-flex justify-content-center">
+                            <button class="btn btn-pink my-2 my-sm-0" type="submit">Enviar!</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <hr class="bg-pink">
+        <div class="row">
+            <div class="col-12">
+                <section class="text-center">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ad enim quasi? Est, quidem
+                        architecto?
+                        Cupiditate est quam delectus voluptates magnam odit, minus, itaque sequi at eos voluptas vitae
+                        dolore?</p>
+                </section>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="page-footer font-small blue-grey lighten-5 mt-3">
+            <div style="background-color: #fad28c;">
+                <div class="container">
+                    <!-- Grid row-->
+                    <div class="row py-4 d-flex align-items-center">
+                        <!-- Grid column -->
+                        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                            <h6 class="mb-0">Seguinos!</h6>
+                        </div>
+                        <!-- Grid column -->
+                        <!-- Grid column -->
+                        <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+                            <!-- Facebook -->
+                            <a class="fb-ic">
+                                <i class="fab fa-facebook-f white-text mr-4"> </i>
+                            </a>
+                            <!-- Twitter -->
+                            <a class="tw-ic">
+                                <i class="fab fa-twitter white-text mr-4"> </i>
+                            </a>
+                            <!--Instagram-->
+                            <a class="ins-ic">
+                                <i class="fab fa-instagram white-text"> </i>
+                            </a>
+
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row-->
+                </div>
+            </div>
+            <!-- Footer Links -->
+            <div class="container text-center text-md-left mt-5">
+
+                <!-- Grid row -->
+                <div class="row mt-3 dark-grey-text">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+
+                        <!-- Content -->
+                        <h6 class="text-uppercase font-weight-bold">Newsletter</h6>
+                        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto " style="width: 60px;">
+                        <nav class="navbar navbar-light bg-white">
+                            <form class="form-inline">
+                                <input class="form-control mr-sm-2" type="text" placeholder="Subscribirse">
+                                <button class="btn btn-pink my-2 my-sm-0" type="submit">Subscribirse</button>
+                            </form>
+                        </nav>
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 footer-hiper">
+
+                        <!-- Links -->
+                        <h6 class="text-uppercase font-weight-bold">Productos</h6>
+                        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <a class="dark-grey-text" href="tienda.html">Todos los productos</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="building.html">Ofertas</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="tienda.html">Categorias</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 footer-hiper">
+
+                        <!-- Links -->
+                        <h6 class="text-uppercase font-weight-bold">Links Utiles</h6>
+                        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <a class="dark-grey-text" href="building.html">Mi cuenta</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="ayuda.html">Ayuda!</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="#!">Feed Backs!</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                        <!-- Links -->
+                        <h6 class="text-uppercase font-weight-bold">Contacto</h6>
+                        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <i class="fas fa-home mr-3"></i>Mar del plata, 1111</p>
+                        <p>
+                            <i class="fas fa-envelope mr-3"></i> help@coquetamoda.net</p>
+                        <p>
+                            <i class="fas fa-phone mr-3"></i> +54 9 223456987</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Links -->
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center text-black-50 py-3 footer-hiper">© 2020 Copyright:
+                <a class="dark-grey-text " href="index.html"> Coqueta</a>
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

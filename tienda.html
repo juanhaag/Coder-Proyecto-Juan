@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="SASS/css/main.css">
+</head>
+
+<body>
+    <h1>Tienda indumentaria coqueta moda</h1>
+    <main class="container-fluid width-media">
+        <header class="menu-principal row">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-beige col-sm-12 col-mg-12">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                    data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-auto mt-2 mt-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item  active">
+                            <a class="nav-link" href="tienda.html">Tienda<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline d-flex justify-content-end">
+                        <input class="form-control " type="text" placeholder="Buscar">
+                        <button class="btn btn-pink my-2 my-sm-0" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </nav>
+        </header>
+        <div class="category-store row mt-3">
+            <div class="col-12 d-none d-sm-none d-md-block">
+                <h2 class="text-center mb-4">Categorias</h2>
+                <div class="products-columns-4 footer-hiper">
+                    <ul class="list-unstyled d-flex justify-content-around text-center">
+                        <li>
+                            <a href="building.html">
+                                <!---Falta crear la seccion de cada categoria-->
+                                <img src="img/Jeans-cat.jpg">
+                                <h2>Jeans</h2>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="building.html">
+                                <img src="img/sweater-cat.jpg">
+                                <h2>Sweaters</h2>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="building.html">
+                                <img src="img/product.png">
+                                <h2>Accesorios</h2>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="building.html">
+                                <img src="img/camisas-cat.jpg">
+                                <h2>Camisas y Blusas</h2>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--Todos los productos-->
+        <hr class="bg-pink">
+        <div class="row mt-3">
+            <div class="seccion1 col-12">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-pink dropdown-toggle" type="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Filtro</button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Mayor a Menor</a>
+                            <a class="dropdown-item" href="#">Menor a Mayor</a>
+                            <a class="dropdown-item" href="#">Nuevos Ingresos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-columns-4 d-none d-sm-none d-md-block">
+                    <div>
+                        <h2 class="text-center d-flex justify-content-center">Todos los productos</h2>
+                    </div>
+                    <ul class="list-unstyled d-flex justify-content-around text-center">
+                        <!---Clase para editar columna de 4 productos-->
+                        <li>
+                            <a href="building.html">
+                                <!---Redireccion a imagen del producto y titulo-->
+                                <img src="img/product.png" class="img-thumbnail">
+                                <h2>Titutlo del producto</h2>
+                                <button type="button" class="btn btn-pink ">Comprar</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="building.html">
+                                <img src="img/product.png" class="img-thumbnail">
+                                <h2>Titutlo del producto</h2>
+                                <button type="button" class="btn btn-pink ">Comprar</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="building.html">
+                                <img src="img/product.png" class="img-thumbnail">
+                                <h2>Titutlo del producto</h2>
+                                <button type="button" class="btn btn-pink ">Comprar</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="building.html">
+                                <img src="img/product.png" class="img-thumbnail">
+                                <h2>Titutlo del producto</h2>
+                                <button type="button" class="btn btn-pink ">Comprar</button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Problema para ajustar columnas en Small y Medium-->
+                <div class="products-columns-4 d-md-none">
+                    <div>
+                        <h2 class="text-center d-flex justify-content-center">Todos los productos</h2>
+                    </div>
+                    <ul class="list-unstyled d-flex justify-content-between text-center">
+                        <!---Clase para editar columna de 4 productos-->
+                        <li>
+                            <a href="building.html">
+                                <!---Redireccion a imagen del producto y titulo-->
+                                <img src="img/product.png" class="img-thumbnail">
+                                <h2>Titutlo del producto</h2>
+                                <button type="button" class="btn btn-pink ">Comprar</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="building.html">
+                                <img src="img/product.png" class="img-thumbnail">
+                                <h2>Titutlo del producto</h2>
+                                <button type="button" class="btn btn-pink ">Comprar</button>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="list-unstyled d-flex justify-content-around text-center">
+                        <li>
+                            <a href="building.html">
+                                <img src="img/product.png" class="img-thumbnail">
+                                <h2>Titutlo del producto</h2>
+                                <button type="button" class="btn btn-pink ">Comprar</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="building.html">
+                                <img src="img/product.png" class="img-thumbnail">
+                                <h2>Titutlo del producto</h2>
+                                <button type="button" class="btn btn-pink ">Comprar</button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <hr class="bg-pink">
+        <footer>
+            <!-- Footer -->
+            <footer class="page-footer font-small blue-grey lighten-5">
+
+                <div style="background-color: #fad28c;">
+                    <div class="container">
+
+                        <!-- Grid row-->
+                        <div class="row py-4 d-flex align-items-center">
+
+                            <!-- Grid column -->
+                            <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                                <h6 class="mb-0">Seguinos!</h6>
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+                                <!-- Facebook -->
+                                <a class="fb-ic">
+                                    <i class="fab fa-facebook-f white-text mr-4"> </i>
+                                </a>
+                                <!-- Twitter -->
+                                <a class="tw-ic">
+                                    <i class="fab fa-twitter white-text mr-4"> </i>
+                                </a>
+                                <!--Instagram-->
+                                <a class="ins-ic">
+                                    <i class="fab fa-instagram white-text"> </i>
+                                </a>
+
+                            </div>
+                            <!-- Grid column -->
+
+                        </div>
+                        <!-- Grid row-->
+
+                    </div>
+                </div>
+
+                <!-- Footer Links -->
+                <div class="container text-center text-md-left mt-5">
+
+                    <!-- Grid row -->
+                    <div class="row mt-3 dark-grey-text">
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+
+                            <!-- Content -->
+                            <h6 class="text-uppercase font-weight-bold">Newsletter</h6>
+                            <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto " style="width: 60px;">
+                            <nav class="navbar navbar-light bg-white">
+                                <form class="form-inline">
+                                    <input class="form-control mr-sm-2" type="text" placeholder="Subscribirse">
+                                    <button class="btn btn-pink my-2 my-sm-0" type="submit">Subscribirse</button>
+                                </form>
+                            </nav>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 footer-hiper">
+
+                            <!-- Links -->
+                            <h6 class="text-uppercase font-weight-bold">Productos</h6>
+                            <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                            <p>
+                                <a class="dark-grey-text" href="tienda.html">Todos los productos</a>
+                            </p>
+                            <p>
+                                <a class="dark-grey-text" href="building.html">Ofertas</a>
+                            </p>
+                            <p>
+                                <a class="dark-grey-text" href="tienda.html">Categorias</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 footer-hiper">
+
+                            <!-- Links -->
+                            <h6 class="text-uppercase font-weight-bold">Links Utiles</h6>
+                            <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                            <p>
+                                <a class="dark-grey-text" href="building.html">Mi cuenta</a>
+                            </p>
+                            <p>
+                                <a class="dark-grey-text" href="ayuda.html">Ayuda!</a>
+                            </p>
+                            <p>
+                                <a class="dark-grey-text" href="#!">Feed Backs!</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                            <!-- Links -->
+                            <h6 class="text-uppercase font-weight-bold">Contacto</h6>
+                            <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                            <p>
+                                <i class="fas fa-home mr-3"></i>Mar del plata, 1111</p>
+                            <p>
+                                <i class="fas fa-envelope mr-3"></i> help@coquetamoda.net</p>
+                            <p>
+                                <i class="fas fa-phone mr-3"></i> +54 9 223456987</p>
+
+                        </div>
+                        <!-- Grid column -->
+
+                    </div>
+                    <!-- Grid row -->
+
+                </div>
+                <!-- Footer Links -->
+
+                <!-- Copyright -->
+                <div class="footer-copyright text-center text-black-50 py-3 footer-hiper">© 2020 Copyright:
+                    <a class="dark-grey-text " href="index.html"> Coqueta</a>
+                </div>
+                <!-- Copyright -->
+
+            </footer>
+            <!-- Footer -->
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+.bg-pink{
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, $beige 0%, $pink 100%) 1;
+}
+.bg-beige{
+    background-color: $beige;
+}
