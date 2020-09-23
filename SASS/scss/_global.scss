@@ -12,7 +12,16 @@ html, body{
     background-color: white;
   }
 }
-@media only screen and (min-width: 1500px){
+/*@media only screen and (min-width: 992px){
+  .width-media{
+    width: 1400px;
+    font-size: 18px;
+  }
+  h2{
+    color: $pink;
+  }
+}*/
+@media only screen and (min-width: 1400px){
   .width-media{
     width: 1800px;
     font-size: 18px;
