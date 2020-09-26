@@ -43,40 +43,68 @@
             </nav>
         </header>
         <!--Header-->
-        <div class="category-store row mt-3">
-            <div class="col-12 d-none d-sm-none d-md-block">
-                <h2 class="text-center mb-4">Categorias</h2>
-                <div class="products-columns-4 footer-hiper">
-                    <ul class="list-unstyled d-flex justify-content-around text-center">
-                        <li>
-                            <a href="building.html">
-                                <!---Falta crear la seccion de cada categoria-->
-                                <img src="img/Jeans-cat.jpg">
-                                <h2>Jeans</h2>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="building.html">
-                                <img src="img/sweater-cat.jpg">
-                                <h2>Sweaters</h2>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="building.html">
-                                <img src="img/product.png">
-                                <h2>Accesorios</h2>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="building.html">
-                                <img src="img/camisas-cat.jpg">
-                                <h2>Camisas y Blusas</h2>
-                            </a>
-                        </li>
-                    </ul>
+        <!--Category cards-->
+        <div class="row d-flex justify-content-center mt-2">
+            <div class="col-sm-4">
+                <div class="card w-80">
+                    <div class="image">
+                        <a href="jeans.html">
+                            <img src="img/jeans-cat.jpg" alt="jean category image" />
+                        </a>
+                    </div>
+                    <div class="card-inner">
+                        <div class="header">
+                            <h2>Jeans</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card w-80">
+                    <div class="image">
+                        <a href="sweaters.html">
+                            <img src="img/sweater-cat.jpg" alt="sweaters category" />
+                        </a>
+                    </div>
+                    <div class="card-inner">
+                        <div class="header">
+                            <h2>Sweaters</h2>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card w-80">
+                    <div class="image">
+                        <a href="accesorios.html">
+                            <img src="img/product.png" alt="accesorios category" />
+                        </a>
+                    </div>
+                    <div class="card-inner">
+                        <div class="header">
+                            <h2>Accesorios</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card w-80">
+                    <div class="image">
+                        <a href="camisas-y-blusas.html">
+                            <img src="img/camisas-cat.jpg" alt="camisas category" />
+                        </a>
+                    </div>
+                    <div class="card-inner">
+                        <div class="header">
+                            <h2>Camisas y Blusas</h2>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <!--Category cards-->
+
         <!--Todos los productos-->
         <hr class="bg-pink">
         <div class="row mt-3">
@@ -94,36 +122,36 @@
                 </div>
                 <div class="products-columns-4 d-none d-sm-none d-md-block">
                     <div>
-                        <h2 class="text-center d-flex justify-content-center">Todos los productos</h2>
+                        <h2 class="text-center d-flex justify-content-center pb-2">Todos los productos</h2>
                     </div>
                     <ul class="list-unstyled d-flex justify-content-around text-center">
                         <!---Clase para editar columna de 4 productos-->
-                        <li>
+                        <li class="product-color">
                             <a href="building.html">
                                 <!---Redireccion a imagen del producto y titulo-->
-                                <img src="img/product.png" class="img-thumbnail">
-                                <h2>Titutlo del producto</h2>
+                                <img src="img/productos/camisas-y-blusas/blusa1.jpg" class="img-thumbnail" alt="blusa 1">
+                                <h2>Blusa verde</h2>
                                 <button type="button" class="btn btn-pink ">Comprar</button>
                             </a>
                         </li>
-                        <li>
+                        <li class="product-color">
                             <a href="building.html">
-                                <img src="img/product.png" class="img-thumbnail">
-                                <h2>Titutlo del producto</h2>
+                                <img src="img/productos/jeans/jean-fer.jpeg" class="img-thumbnail" alt="jean fer">
+                                <h2>Jean fer</h2>
                                 <button type="button" class="btn btn-pink ">Comprar</button>
                             </a>
                         </li>
-                        <li>
+                        <li class="product-color">
                             <a href="building.html">
-                                <img src="img/product.png" class="img-thumbnail">
-                                <h2>Titutlo del producto</h2>
+                                <img src="img/productos/sweaters/sweater2.jpeg" class="img-thumbnail" alt="sweater 2">
+                                <h2>Sweater</h2>
                                 <button type="button" class="btn btn-pink ">Comprar</button>
                             </a>
                         </li>
-                        <li>
+                        <li class="product-color">
                             <a href="building.html">
-                                <img src="img/product.png" class="img-thumbnail">
-                                <h2>Titutlo del producto</h2>
+                                <img src="img/productos/jeans/jean-gray.jpeg" class="img-thumbnail" alt="jean gray">
+                                <h2>Jean gray</h2>
                                 <button type="button" class="btn btn-pink ">Comprar</button>
                             </a>
                         </li>
@@ -136,7 +164,7 @@
                     </div>
                     <ul class="list-unstyled d-flex justify-content-between text-center">
                         <!---Clase para editar columna de 4 productos-->
-                        <li>
+                        <li class="product-color">
                             <a href="building.html">
                                 <!---Redireccion a imagen del producto y titulo-->
                                 <img src="img/product.png" class="img-thumbnail">
@@ -144,7 +172,7 @@
                                 <button type="button" class="btn btn-pink ">Comprar</button>
                             </a>
                         </li>
-                        <li>
+                        <li class="product-color">
                             <a href="building.html">
                                 <img src="img/product.png" class="img-thumbnail">
                                 <h2>Titutlo del producto</h2>
@@ -153,14 +181,14 @@
                         </li>
                     </ul>
                     <ul class="list-unstyled d-flex justify-content-around text-center">
-                        <li>
+                        <li class="product-color">
                             <a href="building.html">
                                 <img src="img/product.png" class="img-thumbnail">
                                 <h2>Titutlo del producto</h2>
                                 <button type="button" class="btn btn-pink ">Comprar</button>
                             </a>
                         </li>
-                        <li>
+                        <li class="product-color">
                             <a href="building.html">
                                 <img src="img/product.png" class="img-thumbnail">
                                 <h2>Titutlo del producto</h2>
@@ -194,15 +222,15 @@
                             <div class="col-md-6 col-lg-7 text-center text-md-right">
 
                                 <!-- Facebook -->
-                                <a class="fb-ic">
+                                <a class="fb-ic hiper-decoration" href="www.facebook.com">
                                     <i class="fab fa-facebook-f white-text mr-4"> </i>
                                 </a>
                                 <!-- Twitter -->
-                                <a class="tw-ic">
+                                <a class="tw-ic hiper-decoration" href="www.twitter.com">
                                     <i class="fab fa-twitter white-text mr-4"> </i>
                                 </a>
                                 <!--Instagram-->
-                                <a class="ins-ic">
+                                <a class="ins-ic hiper-decoration" href="www.instagram.com">
                                     <i class="fab fa-instagram white-text"> </i>
                                 </a>
 
