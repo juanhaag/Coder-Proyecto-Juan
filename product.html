@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombre del Producto</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="SASS/css/main.css">
+    <!--favicon-->
+    <link rel="icon" type="image/png" href="img/icons/favicon.png" />
+    <!--favicon-->
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap" rel="stylesheet">
+    <!--fonts-->
+    <meta name="description" content="Tienda online de indumentaria femenina, Coleccion primavera">
+    <meta name="keywords"
+        content="Indumentaria femenina, tienda online, Jeans, Sweaters, Blusa, Remeras, Coleccion primavera">
+    <!--metas-->
+</head>
+
+<body>
+    <h1>Nombre del producto</h1>
+    <main class="container-fluid">
+        <!---Header-->
+        <div class="row">
+            <nav
+                class="navbar navbar-dark bg-black col-12 hiper-nav justify-content-end align-contetn-center  d-md-flex">
+                <i class="fas fa-user text-white pr-1"></i>
+                <h6><a href="login.html" class="hiper-decoration d-block pt-1">Login/Register</a></h6>
+                <i class="fas fa-shopping-cart text-white pl-5 pr-2"></i>
+            </nav>
+        </div>
+        <header class="menu-principal row">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-beige col-sm-12 col-mg-12">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                    data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-auto mt-2 mt-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item  active">
+                            <a class="nav-link" href="tienda.html">Tienda<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!--breadcumb-->
+            <nav aria-label="breadcrumb" class="breadcumb-custom">
+                <ol class="breadcrumb bgc-pink">
+                    <li class="breadcrumb-item"><a class="text-white" href="index.html">Inicio</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="tienda.html">Tienda</a></li>
+                    <li class="breadcrumb-item active-white" aria-current="page">Producto</li>
+                </ol>
+            </nav>
+            <!--breadcumb-->
+        </header>
+        <!--Header-->
+        <div>
+
+            <div class="row">
+                <div class="col-12 mb-1">
+                    <div class="d-flex product flex-wrap justify-content-sm-center justify-content-md-start">
+                        <img src="img/productos/jeans/jean-belle.jpeg" alt="Imagen del producto" class="border p-1">
+                        <div>
+                            <h2 class="text-dark pl-3 pt-4">Titutlo del producto</h2>
+                            <h5 class="text-secondary pl-3">$999</h5>
+                            <!--attributes product-->
+                            <table class="table table-hover">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">
+                                            <h6 class="text-secondary">Colores</h6>
+                                        </th>
+                                        <td>
+                                            <div class="circulo1">
+                                                <div>
+                                        </td>
+                                        <td>
+                                            <div class="circulo2"></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">
+                                            <h6 class="text-secondary">Talles</h6>
+                                        </th>
+                                        <td class="border">Medium</td>
+                                        <td>Small</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <!--attributes product-->
+                            <button class="btn btn-pink ml-1 d-flex">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <!--Info product-->
+                <div class="col-12 d-flex flex-wrap justify-content-sm-center justify-content-md-start">
+                    <p class="mr-1">
+                        <a class="btn btn-pink" data-toggle="collapse" href="#product-description" aria-expanded="false"
+                            aria-controls="collapseExample">
+                            Descripción
+                        </a>
+                        <p>
+                            <a class="btn btn-pink" data-toggle="collapse" href="#info-product" aria-expanded="false"
+                                aria-controls="collapseExample">
+                                Informacion extra
+                            </a>
+                        </p>
+                        <div class="collapse" id="product-description">
+                            <div class="card card-body d-flex flex-wrap">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore aliquam ipsum quos?
+                                Adipisci voluptatum impedit aperiam ad maxime, consectetur aut optio dolore expedita
+                                voluptatem dolorem, explicabo iste eveniet fuga non?
+                            </div>
+                        </div>
+                        <div class="collapse w-100" id="info-product">
+                            <div class="card card-body">
+                                <table class="table">
+                                    <tbody>
+                                        <tr class="table-danger">
+                                            <th scope="row">Peso</th>
+                                            <td>750g</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Dimensiones</th>
+                                            <td>45cm x 75cm x 10cm</td>
+                                        </tr>
+                                        <tr class="table-danger">
+                                            <th scope="row">Colores</th>
+                                            <td>Rosa, Naranja</td>
+                                        </tr>
+                                        <th scope="row">Talles</th>
+                                        <td>Medium, Small</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <!--Info product-->
+        </div>
+        <!--related products-->
+
+        <div class="row">
+            <div class="products-columns-4">
+                <div>
+                    <h2 class="d-flex text-dark bg-pink">Productos Relacionados</h2>
+                </div>
+                <ul class="list-unstyled d-flex justify-content-between text-center">
+                    <!---Clase para editar columna de 4 productos-->
+                    <li class="product-color">
+                        <a href="product.html">
+                            <!---Redireccion a imagen del producto y titulo-->
+                            <img src="img/productos/camisas-y-blusas/blusa1.jpg" class="img-thumbnail"
+                                alt="blusa productos relacionados">
+                            <h2>Blusa verde</h2>
+                            <h3>$1500</h3>
+                            <button type="button" class="btn btn-pink ">Comprar</button>
+                        </a>
+                    </li>
+                    <li class="product-color">
+                        <a href="product.html">
+                            <img src="img/productos/sweaters/sweater2.jpeg" class="img-thumbnail"
+                                alt="sweater 2 relacionados">
+                            <h2>Sweater naranja</h2>
+                            <h3>$750</h3>
+                            <button type="button" class="btn btn-pink ">Comprar</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--related products-->
+
+
+
+
+
+
+
+
+
+        <!-- Footer -->
+        <footer class="page-footer font-small blue-grey lighten-5">
+
+            <div style="background-color: #fad28c;">
+                <div class="container">
+
+                    <!-- Grid row-->
+                    <div class="row py-4 d-flex align-items-center">
+
+                        <!-- Grid column -->
+                        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                            <h6 class="mb-0">Seguinos!</h6>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+                            <!-- Facebook -->
+                            <a class="fb-ic hiper-decoration" href="www.facebook.com">
+                                <i class="fab fa-facebook-f white-text mr-4"> </i>
+                            </a>
+                            <!-- Twitter -->
+                            <a class="tw-ic hiper-decoration" href="www.twitter.com">
+                                <i class="fab fa-twitter white-text mr-4"> </i>
+                            </a>
+                            <!--Instagram-->
+                            <a class="ins-ic hiper-decoration" href="www.instagram.com">
+                                <i class="fab fa-instagram white-text"> </i>
+                            </a>
+
+                        </div>
+                        <!-- Grid column -->
+
+                    </div>
+                    <!-- Grid row-->
+
+                </div>
+            </div>
+
+            <!-- Footer Links -->
+            <div class="container text-center text-md-left mt-5">
+
+                <!-- Grid row -->
+                <div class="row mt-3 dark-grey-text">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+
+                        <!-- Content -->
+                        <h6 class="text-uppercase font-weight-bold">Newsletter</h6>
+                        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto " style="width: 60px;">
+                        <nav class="navbar navbar-light bg-white">
+                            <form class="form-inline">
+                                <input class="form-control mr-sm-2" type="text" placeholder="Subscribirse">
+                                <button class="btn btn-pink my-2 my-sm-0" type="submit">Subscribirse</button>
+                            </form>
+                        </nav>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 footer-hiper">
+
+                        <!-- Links -->
+                        <h6 class="text-uppercase font-weight-bold">Productos</h6>
+                        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <a class="dark-grey-text" href="tienda.html">Todos los productos</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="index.html">Ofertas</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="tienda.html">Categorias</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 footer-hiper">
+
+                        <!-- Links -->
+                        <h6 class="text-uppercase font-weight-bold">Links Utiles</h6>
+                        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <a class="dark-grey-text" href="building.html">Mi cuenta</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="contacto.html">Ayuda!</a>
+                        </p>
+                        <p>
+                            <a class="dark-grey-text" href="#!">Feed Backs!</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                        <!-- Links -->
+                        <h6 class="text-uppercase font-weight-bold">Contacto</h6>
+                        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <i class="fas fa-home mr-3"></i>Mar del plata, 1111</p>
+                        <p>
+                            <i class="fas fa-envelope mr-3"></i> help@coquetamoda.net</p>
+                        <p>
+                            <i class="fas fa-phone mr-3"></i> +54 9 223456987</p>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+            </div>
+            <!-- Footer Links -->
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center text-black-50 py-3 footer-hiper">© 2020 Copyright:
+                <a class="dark-grey-text " href="index.html"> Coqueta</a>
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

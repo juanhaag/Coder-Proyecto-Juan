@@ -7,3 +7,18 @@
     background-color: $pink;
     color: white;
 }
+.btn-whatsapp {
+    display:block;
+    widows: 30px;
+    color: #fff;
+    position: fixed;
+    right:20px;
+    bottom:20px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+    img{
+        width: 50px;
+    }
+}

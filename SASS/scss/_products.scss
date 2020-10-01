@@ -1,3 +1,4 @@
+@import 'mixins';
 .products-columns-4{
     img{
         height: 200px;
@@ -12,3 +13,47 @@
         }
     }
 }
+
+.circulo1{
+    @include circulo($pink,50px,50px);
+}
+.circulo2{
+    @include circulo(#EE7C2E,50px,50px);
+}
+
+@media only screen and (max-width: $screen_small){
+    .product{
+        img{
+            width: 350px;
+        }
+    }
+    .products-columns-4{
+        img{
+            width: 200px;
+            height: 150px;
+        }
+    }
+}
+@media only screen and (min-width: $screen_medium) and (max-width:$screen_large){
+    .product{
+        img{
+            width: 380px;
+        }
+    }
+}
+@media only screen and (min-width: $screen_large) and (max-width:$screen_xlarge){
+    .product{
+        img{
+            width: 400px;
+        }
+    }
+}
+@media only screen and (min-width: $screen_xlarge){
+    .product{
+        img{
+            width: 500px;
+        }
+    }
+}
+
+

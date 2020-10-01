@@ -1,0 +1,10 @@
+//Formas
+@mixin circulo($bgColor,$wCircle,$hCircle) {
+        width: $wCircle;
+        height: $hCircle;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background: $bgColor;
+}
+
