@@ -1,5 +1,4 @@
-Buenas Diego, la idea del proyecto final fue replicar un e-commerce que realice en WordPress, coqueta es una tienda fisica de la ciudad donde vivo (Necochea).
-    Por ahora la pagina no es funcional, planeo dejarla funcional con lo que estoy aprendiendo de php.
+
 
 Caracterisitcas del sitio web:
     Nomenclatura usada:
